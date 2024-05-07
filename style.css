@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+body{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-image:url(thumb-1920-1342989.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .Menu{
+    position: relative;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    -webkit-text-stroke: 0.5px black;
+    text-transform: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+header .navigation a {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    padding: 3px 15px;
+    border-radius: 20px;
+    transition: 0.5s;
+    
+    }
+    header .navigation a:not(:last-child){
+        margin-right: 20px;
+    }
+    header .navigation a:hover{
+       background-color: grey;
+    }
+    header .Menu:hover{
+        background-color: grey;
+    }
+    section {
+        width: 500px;
+        margin: 60px 100px;
+    }
+     section h1 {
+        color: black;
+        -webkit-text-stroke: 1px white;
+        font-weight: 900;
+        letter-spacing: 1px;
+        font-size: 50px;
+        text-transform: uppercase;
+    }
+    section h2{
+        color: #520404 ;
+        -webkit-text-stroke: 0.5px white;
+        letter-spacing: 2px;
+        font-size:37px ;
+    }
+    section .search{
+    color: black;
+    font-size: 20px;
+    letter-spacing: 1px;
+    background-color: white;
+    border-radius: 10px;
+    transition: 0.5s;
+    text-decoration: none;
+    }
+    section .search:hover{
+        background-color: grey;
+    }
+    section h4{
+        color: red;
+        -webkit-text-stroke: 0.5px black;
+        margin-top: 20px;
+        text-decoration: none;
+        font-size: 23px;
+    }
+    section p{
+        color: #ffffff;
+        -webkit-text-stroke: 0.6px black;
+        font-weight: 900;
+    }
+    section .more{
+        color: orangered;
+        font-size: 15px;
+        font-weight: 500;
+        text-decoration: none;
+        letter-spacing: 1px;   
+        -webkit-text-stroke: 0.1px black;
+    }
+     footer{
+      margin-top: 20px;
+      word-spacing: 30px;
+    }
+    footer a{
+        position: relative;
+        -webkit-text-stroke: 0.5px black;
+        color: white;
+     font-size: 30px;
+    }
+    footer a:hover{
+        background-color: gray;
+        border-radius: 15px;
+    }
+    section p{
+        color: #ffffff;
+        -webkit-text-stroke: 0.6 black;
+    }
+    section .info{
+        color: orangered;
+        text-decoration: none;
+        letter-spacing: 1px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+   
+    @media screen and (max-width: 600px)
+    {
+        section h1{
+            color:#670404 ;
+            -webkit-text-stroke: 0.3px white;
+            font-size: 36px;
+            line-height: 50px;
+        } 
+        section h2 {
+            color: #970808;
+            -webkit-text-stroke: 0.3px white;
+            font-size: 20px;
+            line-height: 40px;
+        }
+        header .navigation a {
+            width: 100%;
+            font-size: 15px;
+            font-weight: 100;}
+
+            section .search{
+            font-size: 15px;
+             border-radius: 10px;}
+
+             section h4{
+                margin-top: 18px;
+                font-size: 18px;
+            }
+            section p{
+                color: white;
+                -webkit-text-stroke: 0.1px black;
+                flex-direction: row ;
+                font-weight: 500;
+                font-size: 15px;}
+
+                section .more{
+                    font-size: 12px;
+                     font-weight: 400;}
+
+                     section .info{
+                        font-size: 12px;
+                        font-weight: 400;}
+
+                        footer{
+                            margin-top: 30px;
+                            word-spacing: 10px;}
+
+                            footer a{
+                                position: relative;
+                                -webkit-text-stroke: 0.5px black;
+                                color: white;
+                             font-size: 20px;
+                            }
+                            html,body {
+                                width: 100%;
+                                height: 100%;
+                                margin: 0px;
+                                padding: 0px;
+                                overflow-x: hidden;
+                                overflow-y: hidden;
+                            }
+                            body{
+                                position: relative;
+                                width: 100%;
+                                min-height: 100vh;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: flex-start;
+                                background-image:url(47101.jpg);
+                                background-repeat: no-repeat;
+                               background-size: cover;
+                                background-position: center;
+                            }
+
+
+ }

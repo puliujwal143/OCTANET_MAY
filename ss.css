@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(dragon-winter-snow-anime-manga-4k-9k-1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    width: 40%;
+    min-width: 350px;
+    background-color: white;
+    max-height: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px rgba(0,0,0,0.5);
+}
+#newtask{
+    position: relative;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#taskinfo{
+    width: 75%;
+    height: 35px;
+    border: 2px solid #D1DBDB;
+    border-radius: 6px;
+    color: black;
+    font-weight: 400;
+    padding-left: 5px;
+}
+#taskinfo:focus{
+    outline: none;
+    color: #7744E4 ;
+    border-color: #7744E4 ;
+}
+#add{
+    width: 20%;
+    height: 35px;
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: #804BF1;
+    border: none;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+#tasklist{
+    margin-bottom: 9px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #B4B6FA  ;
+    height: 45px;
+    margin-bottom: 9px;
+    padding: 5px 10px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #939697;
+}
+.del{
+    color: red;
+    border: none;
+    cursor: pointer;
+    background: none;
+    outline: none;
+}
